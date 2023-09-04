@@ -201,5 +201,4 @@ class TestAccountService(TestCase):
 
         # Check for the CORS header
         self.assertEqual(response.headers.get('Access-Control-Allow-Origin'), '*')
-        
-        
+
